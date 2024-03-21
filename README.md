@@ -1,12 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) to showcase how to integrate the @uniswap/widgets package in your own projects.
-
-## widgets-next
-
-![Uniswap Widgets](uniswap-widgets.png)
 
 ---
 
-To start the demo:
+install  :
 
 ```bash
 yarn        # install dependencies
@@ -45,17 +40,3 @@ The `SwapWidget` component will accept any EIP1193 Provider or `@ethersproject` 
 ### Localization
 
 The `SwapWidget` component will render in whichever supported locale is passed to the `locale` prop. The demo uses en-US, but includes a selector to demonstrate additional locales.
-
-### Additional documentation
-
-- [What is Uniswap](https://docs.uniwap.org/)
-  Learn about the Uniswap Protocol and available SDKs.
-
-- [Swap Widget Docs](https://docs.uniswap.org/sdk/widgets/swap-widget)
-  Explore the Swap Widget's features and API.
-
-- [Discord](https://discord.gg/ybKVQUWb4s)
-  Hop into #widgets for realtime help.
-
-- [GitHub](https://github.com/Uniswap/interface/blob/main/src/lib/index.tsx)
-  View the Swap Widget's source.
